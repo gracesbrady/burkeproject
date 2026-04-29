@@ -355,9 +355,16 @@ button {
 
     }
 
+    #bio-images-container {
+
+        flex-direction: column;
+
+    }
+
     #career-container {
 
         flex-direction: column;
+        width: 100%;
 
     }
 
