@@ -329,7 +329,7 @@ button {
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
 
     .heading {
 
@@ -399,5 +399,71 @@ button {
     #thought-container {
     flex-wrap: wrap;
     }
+
+    #navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }   
+
+@media (max-width: 750px) {
+
+    .heading {
+
+        flex-direction: column;
+
+    }
+
+    #intro-container {
+
+        flex-direction: column;
+
+    }
+
+    #thought-container {
+
+        flex-direction: column;
+
+    }
+
+    #bio-container{
+
+        flex-direction: column;
+
+    }
+
+    #career-container {
+
+        flex-direction: column;
+
+    }
+
+    #thought-container img {
+
+        height: 200px;
+
+    }
+
+    .main-text {
+
+        flex-direction: column;
+
+    }
+
+    #navbar ul {
+
+        justify-content: space-between;
+        gap: 10px;
+        list-style: none;
+
+    }
+
+    html {
+
+        font-size: 14px;
+
+    }
+
+}
 
 }
