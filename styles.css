@@ -368,19 +368,24 @@ button {
 
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        max-width: 100%;
 
     }
 
     #career-container img {
 
-        width: 200px;
+        width: 90%;
+        max-width: 300px;
         height: auto;
 
     }
 
     #career-text {
 
-        width: 50%;
+        width: 100%;
+        max-width: 90%;
+        text-align: center;
 
     }
 
