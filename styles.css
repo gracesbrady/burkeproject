@@ -367,9 +367,23 @@ button {
     #career-container {
 
         flex-direction: column;
-        height: 200px;
+        align-items: center;
 
     }
+
+    #career-container img {
+
+        width: 300px;
+        height: auto;
+
+    }
+
+    #career-text {
+
+        width: 90%;
+
+    }
+
 
     #thought-container img {
 
@@ -407,7 +421,7 @@ button {
     #career-container,
     #book-container,
     #thought-container {
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     #navbar ul {
