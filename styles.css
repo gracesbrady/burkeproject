@@ -387,4 +387,17 @@ button {
 
     }
 
+    #main-heading {
+        font-size: 36px;
+        padding: 20px;
+    }   
+
+    #intro-container,
+    #bio-container,
+    #career-container,
+    #book-container,
+    #thought-container {
+    flex-wrap: wrap;
+    }
+
 }
